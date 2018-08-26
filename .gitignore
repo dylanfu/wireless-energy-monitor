@@ -34,7 +34,7 @@
 *.app
 *.i*86
 *.x86_64
-*.hex
+*.f
 
 # Debug files
 *.dSYM/
@@ -50,3 +50,11 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+# AVR files
+*.cof
+*.conf
+*.bin
+*.lst
+*.srec
+.DS_STORE
