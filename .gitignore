@@ -35,6 +35,7 @@
 *.i*86
 *.x86_64
 *.f
+*.hex
 
 # Debug files
 *.dSYM/
@@ -57,4 +58,69 @@ dkms.conf
 *.bin
 *.lst
 *.srec
+
+# macOS files
 .DS_STORE
+
+## Ignore Atmel Studio temporary files and build results
+
+#Build Directories
+[Dd]ebug/
+[Rr]elease/
+
+#Build Results
+*.o
+*.d
+*.eep
+*.elf
+*.hex
+*.map
+*.srec
+
+#User Specific Files
+*.atsuo
+
+# Altera Quartus II files
+
+# Need to keep all HDL files and timing constraint files
+# *.vhd
+# *.v
+# *.sdc
+
+# ignore Quartus II generated folders
+*_sim
+db
+greybox_tmp
+incremental_db
+simulation
+testbench
+timing
+
+# ignore Quartus II generated files
+*_generation_script*
+*_inst.vhd
+*.bak
+*.cmp
+*.done
+*.eqn
+*.hex
+*.html
+*.jdi
+*.jpg
+*.pin
+*.pof
+*.ptf.*
+*.qar
+*.qarlog
+*.qws
+*.rpt
+*.smsg
+*.sof
+*.sopc_builder
+*.summary
+*.tcl
+*.txt # Explicitly add any text files used
+*~
+*example*
+*sopc_*
+PLLJ_PLLSPE_INFO.txt # The generated PLL specification file
